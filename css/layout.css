@@ -1,0 +1,356 @@
+/*
+* Blank V1
+* 
+* 
+* 
+* 
+* 
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+	
+	/* #Select Colour
+	================================================== */
+
+	::selection {
+		background: #ffb7b7; /* Safari */
+		}
+	::-moz-selection {
+		background: #ffb7b7; /* Firefox */
+	}
+
+	/* #Header
+	================================================== */
+
+	header {
+		border-top: 0.2em solid #222;
+    
+	}
+	
+	/* #Nav
+	================================================== */
+	
+	nav 	{ position: relative; display:block; height: 1.5em; margin: 0 0 0.6875em; } 
+	
+	.main-navigation ul li {
+		display:inline;
+		float:left;
+		margin-right: 1.5em;  }
+		
+	.main-navigation select {
+		float:left;
+  		display: none; }
+	
+	/* #Footer
+	================================================== */
+	
+	
+
+/* #Page Styles
+================================================== */
+
+	#top-container 	{
+		height: 70%; /* alt --> height:70vh; */
+		min-height: 12.5em;
+		max-height: 25em;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		top: 0;
+		background-color:#999;
+		/*
+		background: #000 url(../img/background-image.jpg) 50% 50%;
+		*/ 
+		}
+		
+	.vertical-center {
+		position: relative;
+		top: 35%;
+		
+	}
+		
+		
+
+.cursor-zoom {
+  cursor: cursor: -webkit-zoom-in;
+}
+
+
+.rhombus {
+  width: 12em;
+  margin: 3em auto 0;
+  background: yellowgreen;
+  -webkit-transition: 1s  linear;
+  text-align: center;
+}
+
+
+
+
+.demo.slide .rhombus {
+  -webkit-transform: rotate(45deg);
+}
+
+      .rhombus > p {
+        height: 6em;
+        padding: 2em;
+        -webkit-transition: inherit;
+        font-size: 120%;
+        display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+
+      }
+      
+      .demo.slide .rhombus > p {
+        -webkit-transform: rotate(-45deg);
+      }
+      
+      .demo.slide .rhombus:hover {
+        -webkit-transform: rotate(405deg);
+      }
+      
+            .demo.slide .rhombus:hover > p {
+              -webkit-transform: rotate(-405deg);
+            }
+
+
+
+.background-size {
+  background: url(path/to/image.jpg) no-repeat;  
+   -moz-background-size: 100% 100%;  
+   -o-background-size: 100% 100%;  
+   -webkit-background-size: 100% 100%;  
+   background-size: 100% 100%; 
+}
+
+.box-overflow {  
+    text-overflow:ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    border: 1px solid black;
+    padding: 1.5em;
+    -webkit-transition: all .5s;
+    color: rgba(0,0,0,.7);
+    cursor: pointer;
+    margin: 0 0 1.375em; /* 1px = 0.0625 */
+} 
+
+.box-overflow:hover {
+    white-space: normal;
+    color: rgba(0,0,0,1);
+    background: #e3e3e3;
+    border: 1px solid #666;
+       }   
+
+
+ .center {
+    display: -moz-box;  
+    display: -webkit-box;  
+    display: box;  
+      
+    -moz-box-orient: horizontal;   
+    -webkit-box-orient: horizontal;  
+    box-orient: horizontal;  
+      
+    -moz-box-pack: center;  
+    -moz-box-align: center;  
+      
+    -webkit-box-pack: center;  
+    -webkit-box-align: center;  
+      
+    box-pack: center;  
+    box-align: center;
+ }
+
+
+/*
+column-count: The desired number of columns for the element.
+column-gap: The padding between each column.
+column-rule: The divider for each column; can be used to specify a border.
+column-width: Used to specifically state the width of each column.
+http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-the-multi-column-css3-module/
+*/
+
+#multi-column-container p {  
+    -webkit-column-count: 3;  
+    -webkit-column-gap: 10px;  
+      
+    -moz-column-count: 3;  
+    -moz-column-gap: 10px;  
+      
+    column-count: 3;  
+    column-gap: 10px;  
+}  
+
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.main-navigation ul     { display: none; }
+  		.main-navigation select { display: inline-block; } 
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello/font/fontello.eot?78346596");
+  src: url("../fonts/fontello/font/fontello.eot?78346596#iefix") format('embedded-opentype'),
+  url("../fonts/fontello/font/fontello.svg?78346596#fontello") format('svg'),
+  url("../fonts/fontello/font/fontello.woff?78346596") format('woff'), 
+  url("../fonts/fontello/font/fontello.ttf?78346596") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/font/fontello.svg?78346596#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: inherit;
+  margin: 0 auto;
+  text-align: center;
+/* opacity .8 */
+/* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+/* fix buttons height, for twitter bootstrap */
+  line-height: 0.9em;
+/* you can be more comfortable with incerased icons size */
+/* font-size: 120%; */
+/* Uncomment for 3D effect
+ text-shadow: 2px 2px 1px rgba(127, 127, 127, 0.3);  */
+}
+
+.icon-youtube:before { content: '\55'; } 
+.icon-play-1:before { content: '\e800'; } 
+.icon-cancel-squared:before { content: '\274e'; } 
+.icon-eye:before { content: '\e70a'; } 
+.icon-down-open:before { content: '\e75c'; } 
+.icon-left-open:before { content: '\e75d'; }
+.icon-right-open:before { content: '\e75e'; }
+.icon-up-open:before { content: '\e75f'; } 
+.icon-twitter:before { content: '\f309'; } 
+.icon-facebook:before { content: '\f30c'; }
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

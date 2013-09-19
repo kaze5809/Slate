@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mike Peyton -- Designer & Developer
+
+# THANKS
+
+    Codrops, Skeleton, HTML5 Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, The Web in General
