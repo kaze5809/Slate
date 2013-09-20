@@ -76,14 +76,15 @@
 	mark {
 		background: #ff0;
 		color: #000; }
-	code,kbd,pre,samp {
+	code,kbd,pre,samp,tt {
 		font-family: monospace, serif;
 		_font-family: 'courier new', monospace;
 		font-size: 1em; }
 	pre {
-		white-space: pre;
+		font-size: 50%;
+		/*white-space: pre;
 		white-space: pre-wrap;
-		word-wrap: break-word; }
+		word-wrap: break-word;*/ }
 	q { quotes: none; }
 	q:before,q:after {
 		content: '';
@@ -224,7 +225,7 @@
 		 margin:0 0 1.8em; }
 
 	h6 { font-size:0.666em;
-		 margin:0 0 2.25em; }
+		 margin:0 0 2.26em; }
 		
 		
 	hr 				{ border: solid #888; border-width: 1px 0 0; clear: both; margin: 0 0 1.4375em; height: 1px; display:block; }
@@ -233,7 +234,7 @@
 	p img 			{ margin:0 0 3em; }
 	p.lead			{ font-size: 21px; line-height: 27px; color: #777;  }
 	
-	em 				{ font-style: italic; }
+	em, i 				{ font-style: italic; }
 	strong			{ font-weight: bold; color: #333; }
 	small			{ font: 60%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; }	
 	
@@ -293,7 +294,7 @@
 /* #Lists
 ================================================== */
 
-	ul, ol { margin-bottom: 3em; font-size: 50%;  }
+	ul, ol { margin-bottom: 2.875em; font-size: 50%;  }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 3em; }
@@ -301,10 +302,10 @@
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ul ul, ul ol,
-	ol ol, ol ul { margin: 0 0 0 1.5em; font-size: 50%;  }
+	ol ol, ol ul { margin: 0 0 0 1.4375em; font-size: 100%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { }
-	li { line-height: 1.5em; margin-bottom: 1.5em; }
+	li { line-height: 1.5em; /* margin-bottom: 1.5em; */ }
 	ul.large li { line-height: 1.5em; }
 	li p { line-height: 1.5em; }
 	ul.inline li	{ display:inline; }

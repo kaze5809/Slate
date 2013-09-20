@@ -115,10 +115,10 @@
             <div class="sixteen columns" style="margin-top: 1.3em;">
             	
                     <h1>Slate</h1>
-                    <!--<h2>Slate</h2>
+                   <h2>Slate</h2>
                     <h3>Slate</h3>
                     <h4>Slate</h4>
-                    <h5>Slate</h5>-->
+                    <h5>Slate</h5>
                     <h6>/ Super Simple Plate</h6>
                     <hr />
                     
@@ -138,47 +138,63 @@
 	==================================================  -->
     <div class="container">
     
-    
-    		 <article class="row">  
-          
-                <section class="two-thirds column" style="text-align:center;">
-                   
-                   
+    		<article class="row"> 
+            
+            		<section class="two-thirds column" style="text-align:center;">
                     
-                    <div class="one-third column alpha">
-                    	<h1 class="icon-youtube"></h1>
-                    </div>
-                    <div class="one-third column">
-                    	<h1 class="icon-play-1"></h1>
-                    </div>
-                    <div class="one-third column omega">
-                    	<h1 class="icon-cancel-squared"></h1>
-                    </div>
-                    <br><br><br>
+                      
+                  			<div class="one-third column">
+                                <h1 class="icon-youtube remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-play-1 remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-cancel-squared remove-bottom"></h1>
+                            </div>
+                            
+                            <br><br><br><br><br>
+                            <hr>
+                            
+                            <div class="one-third column">
+                                <h1 class="icon-eye remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-left-open remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-right-open remove-bottom"></h1>
+                            </div>
+                            
+                            <br><br><br><br><br>
+                            <hr>
+                            
+                            
+                            <div class="one-third column">
+                                <h1 class="icon-twitter remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-facebook remove-bottom"></h1>
+                            </div>
+                            <div class="one-third column">
+                                <h1 class="icon-up-open remove-bottom"></h1>
+                            </div>
+                            
+                            <br><br><br><br><br>
+                            <hr>
+                          
+                                
+                    </section>
                     
+                    <aside class="one-third column">
                     
-                    <div class="one-third column alpha">
-                    	<h1 class="icon-eye"></h1>
-                    </div>
-                    <div class="one-third column">
-                    	<h1 class="icon-left-open"></h1>
-                    </div>
-                    <div class="one-third column omega">
-                    	<h1 class="icon-right-open"></h1>
-                    </div>
-                    <br><br><br>
-                    
-                    <div class="one-third column alpha">
-                    	<h1 class="icon-twitter"></h1>
-                    </div>
-                    <div class="one-third column">
-                    	<h1 class="icon-facebook"></h1>
-                    </div>
-                    <div class="one-third column omega">
-                    	<h1 class="icon-up-open"></h1>
-                    </div>
+                         <h3>Charachters @ 45-75 range</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adip <span class="highlight">*</span> isicing elit, sed do eiusmod <span class="highlight">*</span> tempor incididunt ut labore et dolore magna aliqua.</p>
+                  
+                    </aside>
+    	
                    
-                   
+                
                    
                   <!--
                    <p class="box-overflow" title="I am some really, really long text that's going to be ellipsized">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
@@ -197,26 +213,31 @@
                         <li title="Code: 0xe75f"><i class="icon-up-open"></i> <span class="i-name">icon-up-open</span><span class="i-code">0xe75f</span></li>
                         <li title="Code: 0xf309"><i class="icon-twitter"></i> <span class="i-name">icon-twitter</span><span class="i-code">0xf309</span></li>
                         <li title="Code: 0xf30c"><i class="icon-facebook"></i> <span class="i-name">icon-facebook</span><span class="i-code">0xf30c</span></li>
-                    </ul>-->
+                    </ul>
                     
-                 </section>
+                 </section>-->
                 
-                <aside class="one-third column">
-                    <h3>Charachters @ 45-75 range</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adip <span class="highlight">*</span> isicing elit, sed do eiusmod <span class="highlight">*</span> tempor incididunt ut labore et dolore magna aliqua.</p>
-                </aside>
+             
                 
-                <hr>
+                
             
  		</article> 
         
         
+         <!-- Lists
+	     ==================================================  
         <article class="row">
         
                 
                 <aside class="one-third column">
                    <ul class="circle">
                    		<li>List Item</li>
+                        	 <ul class="circle">
+                                <li>List Item</li>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                           </ul>
                         <li>List Item</li>
                         <li>List Item</li>
                         <li>List Item</li>
@@ -246,7 +267,7 @@
         </article>  
         
         
-        
+        -->
     
     
     	  <article class="row">
@@ -255,6 +276,26 @@
                 <aside class="one-third column">
                     <h1 class="offset-half">Aside Info</h1>
                     <hr>
+                    
+                    <p>
+                    <strong>This text is strong</strong><br>
+                    <big>This text is big</big><br>
+                    <em>This text is italic</em><br>
+                    <small>This text is small</small><br>
+                    
+                    00 <sup>superscript</sup><br>
+                    00 <sub>subscript</sub><br>
+                   
+                    <code>A piece of computer code</code><br>
+                  
+<pre>
+for i = 1 to 10
+    x = print i
+next i
+</pre>
+                    
+                    </p>
+
                     <p><a href="#">Nullam</a> lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 	<p><small>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</small></p>
                 </aside>
@@ -523,7 +564,7 @@
                 
                 <aside class="one-third column">
                     <h3>Address</h3>
-                    <address>1 Something street<br />Country<br />City<br />NE1 5TG<br /><br /></address>
+                    <address>1 Something street<br>Country<br>City<br>NE1 5TG<br><br></address>
                     
                     <h3>Image Map</h3>
                     <img src="apple-touch-icon-114x114-precomposed.png" width="114" height="114" alt="Tag" usemap="#egmap" />

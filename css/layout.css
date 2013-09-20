@@ -39,7 +39,7 @@
 	/* #Nav
 	================================================== */
 	
-	nav 	{ position: relative; display:block; height: 1.5em; margin: 0 0 0.6875em; } 
+	nav 	{ position: relative; display:block; height: 1.5em; /*margin: 0 0 0.6875em;*/ } 
 	
 	.main-navigation ul li {
 		display:inline;

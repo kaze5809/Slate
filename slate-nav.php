@@ -3,7 +3,7 @@
         <li><a href="/" class="active">Home</a></li>
         <li><a href="/collections/all">Subpage</a></li>
         <li><a href="/blogs/five-simple-steps-blog">Blog</a></li>
-        <li><a href="/pages/about-us">About Us</a></li>
+        <li><a href="/pages/about-us">Search / Sitemap</a></li>
         <li><a href="#myAnchor" class="anchorLink">Scroll Anchor</a></li>
     </ul>
      <select>
