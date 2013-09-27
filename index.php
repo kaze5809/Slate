@@ -112,13 +112,13 @@
    <header>
 
         <div class="container">
-            <div class="sixteen columns" style="margin-top: 1.3em;">
+            <div class="sixteen columns" style="margin-top:1.3em;"> <!-- 1.3 2.625 -->
             	
                     <h1>Slate</h1>
-                   <h2>Slate</h2>
+                   <!--<h2>Slate</h2>
                     <h3>Slate</h3>
                     <h4>Slate</h4>
-                    <h5>Slate</h5>
+                    <h5>Slate</h5>-->
                     <h6>/ Super Simple Plate</h6>
                     <hr />
                     
@@ -132,15 +132,46 @@
     
     
     
-    
-    
     <!-- Main
 	==================================================  -->
     <div class="container">
     
     		<article class="row"> 
             
-            		<section class="two-thirds column" style="text-align:center;">
+            	 <div class="one columns">
+                
+                            <img src="img/100x192.jpg" width="100" height="192" alt="Responsive Image" class="scale-with-grid">
+                            	<p>Nullam lobortis lacus eu nisi </p>
+              
+               </div>
+               <div class="fifteen columns">
+                
+                            	<p>Nullam lobortis lacus eu nisi Nullam lobortis lacus eu nisiNullam lobortis lacus eu nisiNullam lobortis lacus eu nisi</p>
+              
+               </div>
+               
+          
+               
+              
+            <hr> 
+            		
+         		<section class="twelve columns">
+                    <h2>Gearbox</h2>
+                 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
+                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
+                 </section>
+                
+                <aside class="four columns">
+                    <h3>Aside Info</h3>
+                   <!-- <figure>
+                            <img src="img/640X480.png" width="640" height="480" alt="Responsive Image" class="scale-with-grid">
+                           
+                    </figure> -->
+                    <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
+                </aside>
+            
+            	<!--	<section class="two-thirds column" style="text-align:center;">
                     
                       
                   			<div class="one-third column">
@@ -193,7 +224,7 @@
                   
                     </aside>
     	
-                   
+                   -->
                 
                    
                   <!--
@@ -284,9 +315,8 @@
                     <small>This text is small</small><br>
                     
                     00 <sup>superscript</sup><br>
-                    00 <sub>subscript</sub><br>
+                    00 <sub>subscript</sub>
                    
-                    <code>A piece of computer code</code><br>
                   
 <pre>
 for i = 1 to 10
@@ -295,7 +325,8 @@ next i
 </pre>
                     
                     </p>
-
+                    
+					
                     <p><a href="#">Nullam</a> lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 	<p><small>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</small></p>
                 </aside>
@@ -303,6 +334,8 @@ next i
                 <aside class="one-third column">
                     <h2 class="half-bottom">Aside<br>Info </h2>
                     <hr>
+                    <p class="lead"><a href="#">Lead</a> lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
+                	
                     <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 </aside>
 

@@ -53,7 +53,7 @@
 		*display: inline;
 		*zoom: 1;	}
 	audio,canvas,img,video {
-   		/*vertical-align: middle;*/
+   		vertical-align: middle;
 		}
 	audio:not([controls]) {
 		display: none;
@@ -81,7 +81,7 @@
 		_font-family: 'courier new', monospace;
 		font-size: 1em; }
 	pre {
-		font-size: 50%;
+		font-size: 100%;
 		line-height: 1.5em;
 		/*white-space: pre;
 		white-space: pre-wrap;
@@ -163,13 +163,6 @@
 
 /* #Body
 	Evething for fonts are set in multiples of 4
-	Keep in ems for IE8 and down support, when 
-	these eventually die out swith to rems
-	Never use
-	-webkit-font-smoothing: antialiased; (none or subpixel)
-	sub pixel loks great on mac, crap on pc
-	vice versa for anti aliased
-	http://www.usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/
 ================================================== 	*/
 
 	html, body {
@@ -180,9 +173,16 @@
 
 	body {
 	  margin: 0;
-	  font: 200% "Helvetica", Helvetica, Arial, sans-serif;  /* Base font set at 2 x 16, 32px */
-	  line-height: 1.5em;
+	 
+	  font: 100% "Helvetica", Helvetica, Arial, sans-serif;  /* Base font set at 2 x 16, 32px */
+	  line-height: 3em;
 	  color: #444;
+	  
+	  /* Never use
+		-webkit-font-smoothing: antialiased; (none or subpixel)
+		sub pixel loks great on mac, crap on pc
+	  	vice versa for anti aliased
+	   	http://www.usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ */
 	  
 	  /* Fix for webkit rendering 
 	  -webkit-text-size-adjust: 100%;
@@ -192,7 +192,7 @@
 	  /* background: #fff url(../img/misc/baseline-24px.gif) repeat; */
 	  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), transparent 1px);
 	  background-origin: content-box;
-	  background-size: 100% 0.75em; } /* Baseline set at 24px */
+	  background-size: 100% 1.5em; } /* Baseline set at 24px */
   
   
 	body.background-image		{ background: #000 url(../img/background-image.jpg) 50% 50%; } 
@@ -209,7 +209,7 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	  font-weight: inherit; }
 	  
-	/* #-------------------------------HTAGS CONCAVE M = 48
+	/* #-----------------------------HTAGS CONCAVE M = 48
 	--------------------------------72
 	-----------------------------48
 	---------------------------37
@@ -218,26 +218,26 @@
 	------------------------21
 	================================================== */  
 		
-	h1 { font-size:2.25em;
+	h1 { font-size:4.5em;
 		 line-height: 1em;
-		 margin:0 0 0.6666666666666667em; }
+		 margin:0 0 0.666em; }
 
-	h2 { font-size:1.5em;
+	h2 { font-size:3em;
 		 margin:0 0 1em; }
 
-	h3 { font-size:1.1666em;
-		 margin:0 0 1.286em; }
+	h3 { font-size:2.3332em;
+		 margin:0 0 1.297em; }
 
-	h4 { font-size:1em;
+	h4 { font-size:2em;
 		 margin:0 0 1.5em; }
 
-	h5 { font-size:0.8333em;
-		 margin:0 0 1.8em; }
+	h5 { font-size:1.6875em;
+		 margin:0 0 1.777em; }
 
-	h6 { font-size:0.666em;
-		 margin:0 0 2.26em; }
+	h6 { font-size:1.3125em;
+		 margin:0 0 2.285em; }
 			
-	/* #-------------------------------HTAGS FLAT
+	/* #-----------------------------HTAGS FLAT
 	---------------------------------84
 	-------------------------------72
 	-----------------------------60
@@ -248,8 +248,8 @@
 	
 	 
 	
-	/* #---------------------------------HTAGS SHARP
-	----------------------------------132
+	/* #-----------------------------HTAGS SHARP
+	---------------------------------132
 	------------------------------120
 	---------------------------96
 	------------------------72
@@ -258,15 +258,15 @@
 	================================================== */ 
 		
 		
-	hr 				{ border: solid #888; border-width: 1px 0 0; clear: both; margin: 0 0 1.46875em;  display:block; } /* m-bottom = 47 */
+	hr 				{ border: solid #888; border-width: 1px 0 0; clear: both; margin: 0 0 2.9375em;  display:block; } /* m-bottom = 47 */
 	
-	p 				{ font: 50%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; } /* back to 16px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
+	p 				{ font: 100%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; } /* back to 16px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
 	p img 			{ margin:0 0 3em; }
-	p.lead			{ font: 100%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 1.5em;  }
+	p.lead			{ font: 200%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 1.5em;  }
 	
 	em, i 			{ font-style: italic; }
 	strong			{ font-weight: bold; color: #333; }
-	small			{ font: 71%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; }	/* 9.6px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
+	small			{ font: 62.5%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; }	/* 9.6px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
 	
 	.subheader 		{ color: #777; }
 	.highlight		{ color: #F90; }
@@ -301,8 +301,7 @@
 	img.scale-with-grid, video {
 		max-width: 100%;
 		height: auto;
-		padding-bottom: -50%;
-		vertical-align: top;
+		vertical-align: middle;
 		}
 		
 	img.bg {
@@ -325,7 +324,7 @@
 /* #Lists
 ================================================== */
 
-	ul, ol { margin-bottom: 2.875em; font-size: 50%;  }
+	ul, ol { margin-bottom: 2.875em; font-size: 100%;  }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 3em; }
