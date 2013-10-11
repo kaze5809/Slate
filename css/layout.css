@@ -32,23 +32,72 @@
 	================================================== */
 
 	header {
-		border-top: 0.2em solid #222;  /* 0.2  0.375 */
-    
+		/*border-top: 0.2em solid #222;   0.2  0.375 */
+		margin-top: 7.5em;
 	}
 	
 	/* #Nav
 	================================================== */
 	
-	nav 	{ position: relative; display:block; height: 1.5em; /*margin: 0 0 0.6875em;*/ }   /* 1.5  3 */
+	.nav-container { 	
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 50; 
+		height: 6em;
+		background-color:#222;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+		/* margin: 0 0 1.5em; */ }  
+		
+	.nav-small { height: 3em; }
+	.nav-large { height: 6em; }
+		
+	.center-nav { 
+		top: 50%;
+		-webkit-transform: translateY(-40%);
+		-moz-transform: translateY(-40%);
+		transform: translateY(-40%); }	
 	
+	nav { float: right; }
+	
+	.main-navigation {
+		padding: 0.375em 0 0 0; }
+			
 	.main-navigation ul li {
 		display:inline;
 		float:left;
 		margin-right: 1.5em;  }
 		
+	.main-navigation ul li:last-child {
+		margin-right: 0; }
+		
 	.main-navigation select {
 		float:left;
   		display: none; }
+		
+		
+	/* # Page Divide
+	================================================== */
+	
+	.divide {
+		padding: 4em 0 2em 0;
+		margin: 0 0 3em 0;
+	}
+	
+	.divide.no-margin-bottom {
+		margin: 0 0 0em 0;
+	}
+	
+	.divide.blue {
+		background-color: #CFF;
+	}
+	
+	.divide.yellow {
+		background-color: #FFC;
+	}
 	
 	/* #Footer
 	================================================== */
@@ -126,16 +175,44 @@
             .demo.slide .rhombus:hover > p {
               -webkit-transform: rotate(-405deg);
             }
+			
+			
+
+/* #Misc
+================================================== */
 
 
+/* 
+Horizontal & vertical centering
+http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/ */
+.absolute-center {
+	background: red;
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  /*
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;*/
+}
+
+
+/* Fullscreen Background */
 
 .background-size {
-  background: url(path/to/image.jpg) no-repeat;  
+   background: url(path/to/image.jpg) no-repeat;  
    -moz-background-size: 100% 100%;  
    -o-background-size: 100% 100%;  
    -webkit-background-size: 100% 100%;  
    background-size: 100% 100%; 
 }
+
+/* Ellipsis */
 
 .box-overflow {  
     text-overflow:ellipsis;

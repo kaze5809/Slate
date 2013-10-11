@@ -9,7 +9,7 @@
 	*/
 
 /* Tabs
-================================================== */
+================================================== 
 
 $('body').on('click', 'ul.tabs > li > a', function(e) {
 
@@ -29,7 +29,7 @@ $('body').on('click', 'ul.tabs > li > a', function(e) {
         $(contentLocation).show().addClass('active').siblings().hide().removeClass('active');
 
     }
-});
+});*/
 
 
 /* Anchor animations

@@ -3,9 +3,9 @@
 	================================================== 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>-->
-	<script async src="js/libs/jquery.min.js"></script>
-    <script async src="js/plugins.js"></script>
-    <script async src="js/scripts.js"></script> 
+	<script src="js/libs/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script> 
     
     <!-- JS Production
 	================================================== 

@@ -110,19 +110,18 @@
    <!-- Header  id="top-container"
    ================================================== -->
    <header>
+   
+   		<?php include 'slate-nav.php'; ?>
 
         <div class="container">
-            <div class="sixteen columns" style="margin-top:1.3em;"> <!-- 1.3 2.625 -->
-            	
+            <div class="sixteen columns"> <!-- 1.3 2.625 -->
+                  
                     <h1>Slate</h1>
-                   <!--<h2>Slate</h2>
+                    <h2>Slate</h2>
                     <h3>Slate</h3>
                     <h4>Slate</h4>
-                    <h5>Slate</h5>-->
-                    <h6>/ Super Simple Plate</h6>
-                    <hr />
-                    
-                  	<?php include 'slate-nav.php'; ?>
+                    <h5>Slate</h5>
+                    <h6>Slate</h6>
                     <hr />
                 	
             </div>
@@ -130,7 +129,9 @@
     
     </header>
     
-    
+    <!--
+    <div class="absolute-center"><img src="img/100x192.jpg" width="100" height="192" alt="Responsive Image" class="scale-with-grid"></div>
+    -->
     
     <!-- Main
 	==================================================  -->
@@ -138,7 +139,9 @@
     
     		<article class="row"> 
             
-            	 <div class="one columns">
+            	
+                <!--
+                <div class="one columns">
                 
                             <img src="img/100x192.jpg" width="100" height="192" alt="Responsive Image" class="scale-with-grid">
                             	<p>Nullam lobortis lacus eu nisi </p>
@@ -149,14 +152,14 @@
                             	<p>Nullam lobortis lacus eu nisi Nullam lobortis lacus eu nisiNullam lobortis lacus eu nisiNullam lobortis lacus eu nisi</p>
               
                </div>
-               
+               -->
           
                
               
-            <hr> 
+            
             		
          		<section class="twelve columns">
-                    <h2>Gearbox</h2>
+                    <h2>Slate</h2>
                  
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
                     Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
@@ -299,9 +302,16 @@
         
         
         -->
+       
+	</div>
+ 
+   <!-- Divide
+	==================================================  -->
+   <div class="divide blue">
     
+    <div class="container">   
     
-    	  <article class="row">
+    	  <article class="ha-waypoint row" data-animate-down="nav-small" data-animate-up="nav-large">
         
                 
                 <aside class="one-third column">
@@ -332,7 +342,7 @@ next i
                 </aside>
 
                 <aside class="one-third column">
-                    <h2 class="half-bottom">Aside<br>Info </h2>
+                    <h2 class="">Aside<br>Info </h2>
                     <hr>
                     <p class="lead"><a href="#">Lead</a> lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 	
@@ -345,7 +355,21 @@ next i
                     <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 </aside>
 
-        </article>   
+        </article>
+      
+      
+      </div>
+      
+      <!-- End Divide -->
+      </div>  
+      
+      
+    
+    
+    
+        
+        
+      <div class="container">      
     
         <article class="row">
 
@@ -376,7 +400,7 @@ next i
         
                 
                 <aside class="one-third column">
-                    <h1 class="add-bottom">Aside Info</h1>
+                    <h1 class="">Aside Info</h1>
                     <p><a href="#">Nullam</a> lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                
                 </aside>
@@ -403,7 +427,7 @@ next i
         	
            
          		<section class="twelve columns">
-                    <h2>Gearbox</h2>
+                    <h2>Slate</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
                     Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
                  </section>
@@ -610,7 +634,7 @@ next i
                
            
          		<section class="twelve columns">
-                    <h2>Gearbox</h2>
+                    <h2>Slate</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
                     Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
                  </section>
@@ -639,6 +663,24 @@ next i
 	
     <?php include 'slate-js.php'; ?>
     
+    <script src="js/plugins/waypoints.min.js"></script>
+    <script>
+			var $nav = $( '.nav-container' );
+			$( '.ha-waypoint' ).each( function(i) {
+				var $el = $( this ),
+					animClassDown = $el.data( 'animateDown' ),
+					animClassUp = $el.data( 'animateUp' );
+
+				$el.waypoint( function( direction ) {
+					if( direction === 'down' && animClassDown ) {
+						$nav.attr('class', 'nav-container ' + animClassDown);
+					}
+					else if( direction === 'up' && animClassUp ){
+						$nav.attr('class', 'nav-container ' + animClassUp);
+					}
+				}, { offset: '100%' } );
+			} );
+	</script>
     
     <script type="text/javascript">
 	

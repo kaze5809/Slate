@@ -180,6 +180,7 @@
 
 	body {
 	  margin: 0;
+	  padding: 0;
 	  font: 200% "Helvetica", Helvetica, Arial, sans-serif;  /* Base font set at 2 x 16, 32px */
 	  line-height: 1.5em;
 	  color: #444;
@@ -210,13 +211,13 @@
 	  font-weight: inherit; }
 	  
 	/* #-------------------------------HTAGS CONCAVE M = 48
-	--------------------------------72
-	-----------------------------48
-	---------------------------37
+	--------------------------------72 - 72
+	------------------------------48
+	----------------------------37
 	--------------------------32
 	-------------------------27
 	------------------------21
-	================================================== */  
+	==================================================   
 		
 	h1 { font-size:2.25em;
 		 line-height: 1em;
@@ -235,32 +236,82 @@
 		 margin:0 0 1.8em; }
 
 	h6 { font-size:0.666em;
-		 margin:0 0 2.26em; }
+		 margin:0 0 2.26em; }  */
 			
 	/* #-------------------------------HTAGS FLAT
-	---------------------------------84
+	---------------------------------84 - 96
 	-------------------------------72
 	-----------------------------60
 	---------------------------48
 	-------------------------36
 	-----------------------24
-	================================================== */ 
+	================================================== */
+	
+	
+	h1 { font-size:2.625em;
+		 line-height: 1.142857142em;
+		 margin:0 0 0.5714em; }
+
+	h2 { font-size:2.25em;
+		 line-height: 1em;
+		 margin:0 0 0.6666666666666667em; }
+
+	h3 { font-size:1.9em;
+		 line-height: 1.2em;
+		 margin:0 0 0.79em; }
+
+	h4 { font-size:1.5em;
+		 margin:0 0 1em; }
+
+	h5 { font-size:1.125em;
+		 margin:0 0 1.33333em; }
+
+	h6 { font-size:0.75em;
+		 margin:0 0 2em; }  
 	
 	 
 	
-	/* #---------------------------------HTAGS SHARP
-	----------------------------------132
+	/* #---------------------------------HTAGS SHARP / Needs fixes
+	----------------------------------144
 	------------------------------120
 	---------------------------96
 	------------------------72
 	---------------------48
 	------------------24
-	================================================== */ 
+	================================================== 
+	
+	
+	h1 { font-size:4.5em;
+		 line-height: 1em;
+		 margin:0 0 0.5em; }
+
+	h2 { font-size:3.75em;
+	     line-height: 1em;
+		 margin:0 0 0.6em; }
+
+	h3 { font-size:3em;
+		 line-height: 1em;
+		 margin:0 0 0.5em; }
+
+	h4 { font-size:2.25em;
+		 line-height: 1em;
+		 margin:0 0 0.67em; }
+
+	h5 { font-size:1.5em;
+		 line-height: 1em;
+		 margin:0 0 1em; }
+
+	h6 { font-size:0.75em;
+		 line-height: 1em;
+		 margin:0 0 2em; }  */ 
 		
 		
 	hr 				{ border: solid #888; border-width: 1px 0 0; clear: both; margin: 0 0 1.46875em;  display:block; } /* m-bottom = 47 */
 	
-	p 				{ font: 50%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 3em; } /* back to 16px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
+	p { font: 50%/1.5em "Georgia", "Times New Roman", serif; 
+		margin:0 0 3em; 
+		text-align: justify; } /* back to 16px for <p> and 1.5 x 16 = 24px baseline, m-bottom = 48 */
+		
 	p img 			{ margin:0 0 3em; }
 	p.lead			{ font: 100%/1.5em "Georgia", "Times New Roman", serif; margin:0 0 1.5em;  }
 	
@@ -291,6 +342,7 @@
 	.remove-bottom { margin-bottom: 0em !important; }
 	.half-bottom { margin-bottom: 0.5em !important; }
 	.add-bottom { margin-bottom: 1em !important; }
+	.add-mid-bottom { margin-bottom: 1.5em !important; }
 	.add-big-bottom { margin-bottom: 2em !important; }
 	
 	
@@ -316,8 +368,21 @@
 /* #Links
 ================================================== */
 
-	a, a:visited { color: #F90; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #F90; border-bottom: 1px solid #F90;  }
+	a, a:visited {
+		color: #F90; 
+		border-bottom: 1px solid #000;
+		text-decoration: none; 
+		outline: 0;
+		-ms-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+		-webkit-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		transition: all 0.25s ease;  }
+		
+	a:hover, a:focus { 
+		color: #FFF; 
+		border-bottom: 1px solid #F90; }
+		  
 	p a, p a:visited { line-height: inherit; }
 	
 
