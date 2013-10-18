@@ -21,13 +21,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
     
+    <!-- Canoical if multiple vers of url state
+    <link rel="canonical" href="index.html"> -->
+    
+    <!-- Add Google Authorship
+    http://webdesign.tutsplus.com/articles/general/why-you-should-add-authorship-information-to-your-website/
+    ================================================== 
+    <link rel="author" href="https://plus.google.com/u/0/XXXXXXX">
+    <meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+    -->
     
     <!-- CSS Dev
     ================================================== -->
 	<link rel="stylesheet" href="css/base.em.zen.css">
 	<link rel="stylesheet" href="css/skel.fluid.shell.css">
 	<link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/animation-component.css" />
     
+    <!-- CSS Production
+    ==================================================
+	<link rel="stylesheet" href="css/all.min.css"> -->
+    
+     <!-- dns Pre-Fetch
+    ==================================================
+    <link rel="dns-prefetch" href="//somehost.tld" /> -->
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- Favicons
     ================================================== -->
@@ -41,13 +59,35 @@
     ================================================== -->
     <meta name="msapplication-TileColor" content="#232323"/>
     <meta name="msapplication-TileImage" content="windows-8-icon-144x144.png"/>
-
+    
 
     <!-- We have different Modernizr versions that will work better for older browsers
     <script src="js/libs/modernizr.custom.full.js"></script>
     ================================================== -->
     <script src="js/libs/modernizr.min.js"></script>
     
+    
+    <!-- Facebook Meta Data
+	================================================== -->
+    <!-- Main Three 
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" /> -->
+    <!-- Sub Three 
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" /> -->
+    
+    <!-- Twiter Meta Data == http://davidwalsh.name/twitter-cards
+	================================================== 
+   	<meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">-->
+            
     
 </head>
 <body>
@@ -58,78 +98,47 @@
     <![endif]-->
 
 
-   <!-- Header
-   ==================================================  
-   <header class="nav-container">
-   
-
-			<div class="center-nav">
+   <!-- Header  id="top-container"
+   ================================================== -->
+   <header>
+     
+     		<!-- the header that will be animated by adding the respective state class to it -->
+			<div id="ha-header" class="ha-header ha-header-large">
             
-            	<div class="black-box logo">
+				<div class="ha-header-perspective">
                 
-                	<h4 class="icon-eye remove-bottom" style="color:#FFF;"></h4>
+					<div class="container">
                     
-                </div>
-                 
-                 
-                <div class="black-box menu">  
-                
-                    <nav class="main-navigation"> 
-                           
-                        <ul>
-                            <li><a href="/" class="active">Home</a></li>
-                            <li><a href="/collections/all">Subpage</a></li>
-                            <li><a href="/blogs/five-simple-steps-blog">Blog</a></li>
-                            <li><a href="/pages/about-us">Search / Sitemap</a></li>
-                            <li><a href="#myAnchor" class="anchorLink">Scroll Anchor</a></li>
-                        </ul>
-                        
-                         <div id="st-trigger-effects">
-                            <button data-effect="st-effect-2">Menu</button>
+                    	<div class="four columns">
+							<h4 class="icon-eye remove-bottom" style="color:#FFF;"></h4>
                         </div>
+                        
+                        <div class="twelve columns"> 
+                             <nav class="main-navigation"> 
+                                       
+                                    <ul>
+                                        <li><a href="/" class="active">Home</a></li>
+                                        <li><a href="/collections/all">Subpage</a></li>
+                                        <li><a href="/blogs/five-simple-steps-blog">Blog</a></li>
+                                        <li><a href="/pages/about-us">Search / Sitemap</a></li>
+                                        <li><a href="#myAnchor" class="anchorLink">Scroll Anchor</a></li>
+                                    </ul>
+                            
+                            </nav>
+                    	</div>
+                        
+					</div>
                     
-                    </nav>
-                    
-                </div>
-            
-            </div>
-            
+					
+				</div>
+                
+			</div>
    
-    
-    </header> -->
-    
-    
-    <div id="st-container" class="st-container">
-		
-	<!--	-->	
-    <nav class="st-menu st-effect-2" id="menu-2">
-				
-				 <ul>
-                    <li><a href="/" class="active">Home</a></li>
-                    <li><a href="/collections/all">Subpage</a></li>
-                    <li><a href="/blogs/five-simple-steps-blog">Blog</a></li>
-                    <li><a href="/pages/about-us">Search / Sitemap</a></li>
-                    <li><a href="#myAnchor" class="anchorLink">Scroll Anchor</a></li>
-                </ul>
-			</nav>
-	
+   		
 
-    <div class="st-pusher">
-    
-   <div class="st-content">
-							
-                           
-    
-    <!-- Main
-	==================================================  -->
-    
-     <div class="container">
+        <div class="container">
             <div class="sixteen columns"> <!-- 1.3 2.625 -->
-                  	
-                    <div id="st-trigger-effects">
-                    	<button data-effect="st-effect-2">Menu</button>
-                    </div>
-                    
+                  
                     <h1>Slate</h1>
                     <h2>Slate</h2>
                     <h3>Slate</h3>
@@ -137,38 +146,15 @@
                     <h5>Slate</h5>
                     <h6>Slate</h6>
                     <hr />
-                    
                 	
             </div>
         </div>
-        
-        
-        
-    <div class="container">
     
+   </header>
     
-    	<article class="row"> 
-            
-            		
-         		<section class="twelve columns">
-                    <h2>Slate</h2>
-                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
-                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
-                 </section>
-                
-                <aside class="four columns">
-                    <h3>Aside Info</h3>
-                    <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
-                </aside>
-            
-            
- 		</article> 
-        
-       
-       
-	</div>
+   
     
+    		
     
  
    <!-- Divide
@@ -177,7 +163,7 @@
     
     <div class="container">   
     
-    	  <article class="ha-waypoint row" data-animate-down="nav-small" data-animate-up="nav-large">
+    	  <article class="ha-waypoint row" data-animate-down="ha-header-small" data-animate-up="ha-header-large">
         
                 
                 <aside class="one-third column">
@@ -237,7 +223,7 @@ next i
         
       <div class="container">      
     
-        <article class="ha-waypoint row" data-animate-down="nav-up" data-animate-up="nav-small">
+        <article class="ha-waypoint row" data-animate-down="ha-header-hide" data-animate-up="ha-header-small">
 
                 <aside class="one-third column">
                     <h4>Aside<br>Info</h4>
@@ -281,32 +267,25 @@ next i
                     <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
                 </aside>
 
-        </article>  
+        </article>   
+    
+		</div>
         
         
-    </div>
-   
+        <?php include 'slate-footer.php'; ?>
     
-
-	<?php include 'slate-footer.php'; ?>
-    
-    
-</div>
-</div><!-- /st-pusher -->
-</div><!-- /st-container -->
     
     
 <!-- End
 ==================================================  -->
  
 	
-    <?php include 'slate-js.php'; ?>
+   <script src="js/libs/jquery.min.js"></script>
     
-    <script src="js/plugins/classie.js"></script>
-	<script src="js/plugins/sidebarEffects.js"></script>
     <script src="js/plugins/waypoints.min.js"></script>
-    <script>
-			var $head = $( '.nav-container' );
+   
+		<script>
+			var $head = $( '#ha-header' );
 			$( '.ha-waypoint' ).each( function(i) {
 				var $el = $( this ),
 					animClassDown = $el.data( 'animateDown' ),
@@ -314,33 +293,16 @@ next i
 
 				$el.waypoint( function( direction ) {
 					if( direction === 'down' && animClassDown ) {
-						$head.attr('class', 'nav-container ' + animClassDown);
+						$head.attr('class', 'ha-header ' + animClassDown);
 					}
 					else if( direction === 'up' && animClassUp ){
-						$head.attr('class', 'nav-container ' + animClassUp);
+						$head.attr('class', 'ha-header ' + animClassUp);
 					}
 				}, { offset: '100%' } );
 			} );
-	</script>
+		</script>
     
-    <script type="text/javascript">
-	
-		$(document).ready(function() {
-			<!-- Script here -->
-			
-			
-			<!-- Add Class -->
-			//$('a[href="index.html"]').addClass("back-to-top active");
-			//$('ul[data-anchor="home"] li a').addClass("anchorLink");
-			
-			
-
-		});
-		
-    	<?php include 'slate-ga.php'; ?>
-		
-	</script>
-
+  
   
         
 </body>
